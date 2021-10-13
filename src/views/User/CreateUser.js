@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { Button, Col, Input, Label, Row, UncontrolledAlert } from 'reactstrap'
 import { useMutation, useQuery, useSubscription } from '@apollo/client'
-import { CREATE_USER } from '../Queries'
 import { useHistory } from 'react-router-dom'
-import { GET_USERS, NEW_USER } from '../../Queries'
+import { CREATE_USER, GET_USERS, NEW_USER } from '../../Queries'
 import addNotification from 'react-push-notification'
 
 const CreateUser = () => {

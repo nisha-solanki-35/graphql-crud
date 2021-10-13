@@ -1,13 +1,13 @@
 import { useMutation, useQuery } from '@apollo/client';
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom';
-import SkeletonTable from '../components/Skeleton';
-import edit from '../assets/images/icons8-edit-30.png';
-import deleteIcon from '../assets/images/icons8-delete-30.png';
+import SkeletonTable from '../../components/Skeleton';
+import edit from '../../assets/images/icons8-edit-30.png';
+import deleteIcon from '../../assets/images/icons8-delete-30.png';
 import { Alert } from 'reactstrap';
 import PropTypes from 'prop-types'
-import add from '../assets/images/icons8-add-48.png'
-import { DELETE_MESSAGE, MESSAGES } from '../Queries';
+import add from '../../assets/images/icons8-add-48.png'
+import { DELETE_MESSAGE, MESSAGES } from '../../Queries';
 
 export const Emails = (props) => {
 

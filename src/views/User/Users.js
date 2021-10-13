@@ -2,13 +2,13 @@ import { useMutation, useQuery } from '@apollo/client';
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom';
 import SkeletonTable from '../../components/Skeleton';
-import edit from '../assets/images/icons8-edit-30.png';
+import edit from '../../assets/images/icons8-edit-30.png';
 import { DELETE_USER, GET_USERS } from '../../Queries';
-import deleteIcon from '../assets/images/icons8-delete-30.png';
+import deleteIcon from '../../assets/images/icons8-delete-30.png';
 // import { UncontrolledAlert } from 'reactstrap';
 import PropTypes from 'prop-types'
-import add from '../assets/images/icons8-add-48.png'
-import email from '../assets/images/mail.png'
+import add from '../../assets/images/icons8-add-48.png'
+import email from '../../assets/images/mail.png'
 import { Alert } from 'reactstrap';
 
 export const Users = (props) => {

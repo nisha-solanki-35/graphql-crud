@@ -2,7 +2,7 @@ import { useMutation, useQuery, useSubscription } from '@apollo/client'
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import { Button, Col, Input, Label, Row, UncontrolledAlert } from 'reactstrap'
-import { CREATE_MESSAGE, MESSAGES, NEW_MESSAGE } from '../Queries'
+import { CREATE_MESSAGE, MESSAGES, NEW_MESSAGE } from '../../Queries'
 import addNotification from 'react-push-notification';
 
 const SendEmail = () => {

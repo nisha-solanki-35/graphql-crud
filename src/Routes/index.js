@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import SendEmail from '../Email/SendEmail'
-import { Emails } from '../Email/Emails'
-import CreateUser from '../User/CreateUser'
-import EditUser from '../User/EditUser'
-import { Users } from '../User/Users'
-import UpdateEmail from '../Email/UpdateEmail'
+import SendEmail from '../views/Email/SendEmail'
+import { Emails } from '../views/Email/Emails'
+import CreateUser from '../views/User/CreateUser'
+import EditUser from '../views/User/EditUser'
+import { Users } from '../views/User/Users'
+import UpdateEmail from '../views/Email/UpdateEmail'
 
 const index = () => {
   return (
